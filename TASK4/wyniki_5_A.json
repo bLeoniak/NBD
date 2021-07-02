@@ -1,0 +1,367 @@
+[
+	{
+		"_id" : "KRW",
+		"balanceSum" : 13379.82,
+		"avgBalance" : 6689.91
+	},
+	{
+		"_id" : "HRK",
+		"balanceSum" : 24354.82,
+		"avgBalance" : 4870.964
+	},
+	{
+		"_id" : "PKR",
+		"balanceSum" : 18938,
+		"avgBalance" : 4734.5
+	},
+	{
+		"_id" : "PEN",
+		"balanceSum" : 18644.94,
+		"avgBalance" : 4661.235
+	},
+	{
+		"_id" : "HNL",
+		"balanceSum" : 16514.59,
+		"avgBalance" : 5504.863333333334
+	},
+	{
+		"_id" : "LYD",
+		"balanceSum" : 8764.99,
+		"avgBalance" : 4382.495
+	},
+	{
+		"_id" : "NPR",
+		"balanceSum" : 5792.26,
+		"avgBalance" : 5792.26
+	},
+	{
+		"_id" : "XPF",
+		"balanceSum" : 4759.07,
+		"avgBalance" : 4759.07
+	},
+	{
+		"_id" : "CUP",
+		"balanceSum" : 15017.34,
+		"avgBalance" : 5005.78
+	},
+	{
+		"_id" : "CAD",
+		"balanceSum" : 58375.6,
+		"avgBalance" : 5306.872727272727
+	},
+	{
+		"_id" : "PHP",
+		"balanceSum" : 118606.28,
+		"avgBalance" : 4941.928333333333
+	},
+	{
+		"_id" : "ILS",
+		"balanceSum" : 16295.49,
+		"avgBalance" : 5431.83
+	},
+	{
+		"_id" : "XOF",
+		"balanceSum" : 17882.05,
+		"avgBalance" : 5960.683333333333
+	},
+	{
+		"_id" : "DOP",
+		"balanceSum" : 20674.739999999998,
+		"avgBalance" : 5168.6849999999995
+	},
+	{
+		"_id" : "KYD",
+		"balanceSum" : 3760.89,
+		"avgBalance" : 3760.89
+	},
+	{
+		"_id" : "GTQ",
+		"balanceSum" : 5806.3,
+		"avgBalance" : 5806.3
+	},
+	{
+		"_id" : "BOB",
+		"balanceSum" : 5263.3,
+		"avgBalance" : 5263.3
+	},
+	{
+		"_id" : "PLN",
+		"balanceSum" : 90770.78,
+		"avgBalance" : 5042.821111111111
+	},
+	{
+		"_id" : "CLP",
+		"balanceSum" : 21008.95,
+		"avgBalance" : 5252.2375
+	},
+	{
+		"_id" : "ZAR",
+		"balanceSum" : 11790.92,
+		"avgBalance" : 3930.306666666667
+	},
+	{
+		"_id" : "YER",
+		"balanceSum" : 13712.5,
+		"avgBalance" : 4570.833333333333
+	},
+	{
+		"_id" : "RSD",
+		"balanceSum" : 4276.56,
+		"avgBalance" : 4276.56
+	},
+	{
+		"_id" : "NGN",
+		"balanceSum" : 24946.23,
+		"avgBalance" : 4157.705
+	},
+	{
+		"_id" : "BRL",
+		"balanceSum" : 49632.020000000004,
+		"avgBalance" : 4512.001818181819
+	},
+	{
+		"_id" : "MGA",
+		"balanceSum" : 14560.99,
+		"avgBalance" : 4853.663333333333
+	},
+	{
+		"_id" : "CZK",
+		"balanceSum" : 37156.42,
+		"avgBalance" : 4644.5525
+	},
+	{
+		"_id" : "PYG",
+		"balanceSum" : 4874.69,
+		"avgBalance" : 4874.69
+	},
+	{
+		"_id" : "COP",
+		"balanceSum" : 19746.73,
+		"avgBalance" : 4936.6825
+	},
+	{
+		"_id" : "ARS",
+		"balanceSum" : 23242,
+		"avgBalance" : 4648.4
+	},
+	{
+		"_id" : "IQD",
+		"balanceSum" : 4269.39,
+		"avgBalance" : 4269.39
+	},
+	{
+		"_id" : "BYR",
+		"balanceSum" : 5095.79,
+		"avgBalance" : 5095.79
+	},
+	{
+		"_id" : "UZS",
+		"balanceSum" : 3573.03,
+		"avgBalance" : 3573.03
+	},
+	{
+		"_id" : "USD",
+		"balanceSum" : 74680.98,
+		"avgBalance" : 4978.732
+	},
+	{
+		"_id" : "NOK",
+		"balanceSum" : 4773.66,
+		"avgBalance" : 4773.66
+	},
+	{
+		"_id" : "IDR",
+		"balanceSum" : 323922.59,
+		"avgBalance" : 4907.918030303031
+	},
+	{
+		"_id" : "XAF",
+		"balanceSum" : 14094.66,
+		"avgBalance" : 4698.22
+	},
+	{
+		"_id" : "ALL",
+		"balanceSum" : 3325.48,
+		"avgBalance" : 3325.48
+	},
+	{
+		"_id" : "UAH",
+		"balanceSum" : 40471.840000000004,
+		"avgBalance" : 5058.9800000000005
+	},
+	{
+		"_id" : "MMK",
+		"balanceSum" : 4629.42,
+		"avgBalance" : 4629.42
+	},
+	{
+		"_id" : "NZD",
+		"balanceSum" : 5328.46,
+		"avgBalance" : 5328.46
+	},
+	{
+		"_id" : "MKD",
+		"balanceSum" : 3835.05,
+		"avgBalance" : 3835.05
+	},
+	{
+		"_id" : "VND",
+		"balanceSum" : 36160.26,
+		"avgBalance" : 4520.0325
+	},
+	{
+		"_id" : "ZWL",
+		"balanceSum" : 5792.17,
+		"avgBalance" : 5792.17
+	},
+	{
+		"_id" : "RUB",
+		"balanceSum" : 119749.15,
+		"avgBalance" : 4989.547916666666
+	},
+	{
+		"_id" : "ISK",
+		"balanceSum" : 4316.41,
+		"avgBalance" : 4316.41
+	},
+	{
+		"_id" : "JPY",
+		"balanceSum" : 60944.74,
+		"avgBalance" : 5078.7283333333335
+	},
+	{
+		"_id" : "ETB",
+		"balanceSum" : 5436.11,
+		"avgBalance" : 5436.11
+	},
+	{
+		"_id" : "BWP",
+		"balanceSum" : 4076.29,
+		"avgBalance" : 4076.29
+	},
+	{
+		"_id" : "BGN",
+		"balanceSum" : 21200.88,
+		"avgBalance" : 5300.22
+	},
+	{
+		"_id" : "CDF",
+		"balanceSum" : 12228.8,
+		"avgBalance" : 6114.4
+	},
+	{
+		"_id" : "TJS",
+		"balanceSum" : 4087.71,
+		"avgBalance" : 4087.71
+	},
+	{
+		"_id" : "AMD",
+		"balanceSum" : 24609.33,
+		"avgBalance" : 4921.866
+	},
+	{
+		"_id" : "TZS",
+		"balanceSum" : 7052.370000000001,
+		"avgBalance" : 3526.1850000000004
+	},
+	{
+		"_id" : "MYR",
+		"balanceSum" : 4781.12,
+		"avgBalance" : 4781.12
+	},
+	{
+		"_id" : "IRR",
+		"balanceSum" : 26504.239999999998,
+		"avgBalance" : 4417.373333333333
+	},
+	{
+		"_id" : "SRD",
+		"balanceSum" : 5286.68,
+		"avgBalance" : 5286.68
+	},
+	{
+		"_id" : "EGP",
+		"balanceSum" : 5579.3,
+		"avgBalance" : 5579.3
+	},
+	{
+		"_id" : "MNT",
+		"balanceSum" : 21715.61,
+		"avgBalance" : 5428.9025
+	},
+	{
+		"_id" : "SEK",
+		"balanceSum" : 70840.19,
+		"avgBalance" : 5060.013571428572
+	},
+	{
+		"_id" : "KZT",
+		"balanceSum" : 3788.95,
+		"avgBalance" : 3788.95
+	},
+	{
+		"_id" : "THB",
+		"balanceSum" : 23021.96,
+		"avgBalance" : 4604.392
+	},
+	{
+		"_id" : "CNY",
+		"balanceSum" : 470700.38,
+		"avgBalance" : 4954.740842105263
+	},
+	{
+		"_id" : "MWK",
+		"balanceSum" : 3574.42,
+		"avgBalance" : 3574.42
+	},
+	{
+		"_id" : "VUV",
+		"balanceSum" : 6418.27,
+		"avgBalance" : 6418.27
+	},
+	{
+		"_id" : "MAD",
+		"balanceSum" : 3818.85,
+		"avgBalance" : 3818.85
+	},
+	{
+		"_id" : "NIO",
+		"balanceSum" : 9971.28,
+		"avgBalance" : 4985.64
+	},
+	{
+		"_id" : "MXN",
+		"balanceSum" : 50229,
+		"avgBalance" : 5022.9
+	},
+	{
+		"_id" : "RWF",
+		"balanceSum" : 4632.88,
+		"avgBalance" : 4632.88
+	},
+	{
+		"_id" : "VEF",
+		"balanceSum" : 8333.28,
+		"avgBalance" : 4166.64
+	},
+	{
+		"_id" : "GBP",
+		"balanceSum" : 6149.19,
+		"avgBalance" : 6149.19
+	},
+	{
+		"_id" : "EUR",
+		"balanceSum" : 245091.47,
+		"avgBalance" : 4901.8294
+	},
+	{
+		"_id" : "AFN",
+		"balanceSum" : 16755.49,
+		"avgBalance" : 5585.163333333334
+	},
+	{
+		"_id" : "ZMW",
+		"balanceSum" : 5569.56,
+		"avgBalance" : 5569.56
+	}
+]

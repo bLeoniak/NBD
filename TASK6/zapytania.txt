@@ -1,0 +1,38 @@
+//1
+MATCH (start:town {name: 'Darjeeling'}),(destination:peak{name:'Sandakphu'}), shortestPath = allShortestPaths((start)-[*]->(destination))
+RETURN shortestPath
+
+//2
+MATCH (start:town {name: 'Darjeeling'}),(destination:peak{name:'Sandakphu'}), shortestPath = allShortestPaths((start)-[*]->(destination))
+WHERE ALL(relationship IN relationships(shortestPath) WHERE relationship.winter = "true") 
+RETURN shortestPath
+
+//3
+MATCH (start:town {name: 'Darjeeling'}),(destination:peak{name:'Sandakphu'}), p=((start)-[*..5]->(destination)) 
+WITH reduce(distance = 0, relationship in relationships(p) | distance + relationship.distance) as distance , p 
+RETURN p,distance order by distance
+
+//4
+MATCH (airport:Airport)<-[origin:ORIGIN]-()
+RETURN airport, Count(origin) as filghtCount
+ORDER BY filghtCount DESC
+
+//5
+MATCH connection = (start:Airport { name:"LAX" })<-[tmp1:ORIGIN]-(:Flight)-[tmp2:ORIGIN|DESTINATION*..5]->(destination:Airport)
+WHERE REDUCE(sum = 0, x IN [node IN NODES(connection) WHERE 'Flight' IN LABELS(node)] | sum + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) < 3000
+RETURN connection
+
+//6
+MATCH connection = (start:Airport { name:"LAX" })<-[tmp1:ORIGIN]-(:Flight)-[tmp2:ORIGIN|DESTINATION*..5]->(destination:Airport {name: "DAY"})
+RETURN connection, REDUCE(sum = 0, x IN [node IN NODES(connection) WHERE 'Flight' IN LABELS(node)] | sum + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) as cost
+ORDER BY cost 
+
+//7
+MATCH connection = (start:Airport { name:"LAX" })<-[tmp1:ORIGIN]-(:Flight)-[tmp2:ORIGIN|DESTINATION*..5]->(destination:Airport {name: "DAY"})
+RETURN connection, REDUCE(sum = 0, x IN [node IN NODES(connection) WHERE 'Flight' IN LABELS(node)] | sum + [(x)<-[:ASSIGN]-(ticket) | ticket.price][0]) as cost
+ORDER BY cost asc LIMIT 1
+
+//8
+MATCH connection = (start:Airport { name:"LAX" })<-[tmp1:ORIGIN]-(:Flight)-[tmp2:ORIGIN|DESTINATION*..5]->(destination:Airport {name: "DAY"})
+RETURN connection, REDUCE(sum = 0, x IN [node IN NODES(connection) WHERE 'Flight' IN LABELS(node)] | sum + [(x)<-[:ASSIGN]-(ticket  {class: 'business'}) | ticket.price][0]) as cost
+ORDER BY cost asc LIMIT 1

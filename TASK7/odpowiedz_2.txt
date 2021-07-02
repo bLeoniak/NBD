@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvg9P6DoPEUpkzGNlCL3of4svCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23904>; rel="up"
+Last-Modified: Tue, 29 Jun 2021 17:16:05 GMT
+ETag: "6OEiQRuXB7GZzScndsKH1A"
+Date: Tue, 29 Jun 2021 17:17:48 GMT
+Content-Type: application/json
+Content-Length: 73
+
+{"firstName": "Lott", "lastName": "Barrett", "age": 68, "gender": "male"}

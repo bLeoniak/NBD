@@ -1,0 +1,33 @@
+//1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Lott", "lastName": "Barrett", "age": 68, "gender": "male"}' http://localhost:8098/buckets/s23904/keys/1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Milagros", "lastName": "Vang", "age": 16, "gender": "female"}' http://localhost:8098/buckets/s23904/keys/2
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Anastasia", "lastName": "Wolfe", "age": 47, "gender": "female"}' http://localhost:8098/buckets/s23904/keys/3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Russo", "lastName": "Craft", "age": 58, "gender": "male"}' http://localhost:8098/buckets/s23904/keys/4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Rose", "lastName": "Lowe", "age": 9, "gender": "female"}' http://localhost:8098/buckets/s23904/keys/5
+
+//2
+curl -i -XGET  http://localhost:8098/buckets/s23904/keys/1
+
+//3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Lott", "lastName": "Barrett", "age": 68, "gender": "male" "hasChildrens": false}' http://localhost:8098/buckets/s23904/keys/1
+
+//4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Lott", "lastName": "Barrett", "age": 68, "gender": "male"}' http://localhost:8098/buckets/s23904/keys/1
+
+//5
+curl -i -XPUT -H "Content-Type: application/json" -d '{"firstName": "Lott", "lastName": "Barrett", "age": 69, "gender": "male"}' http://localhost:8098/buckets/s23904/keys/1
+
+//6 
+curl -i -XDELETE http://localhost:8098/buckets/s23904/keys/1
+
+//7 
+curl -i -XGET  http://localhost:8098/buckets/s23904/keys/1
+
+//8
+curl -i -XPOST -H "Content-Type: application/json" -d '{"testField": testValue}' http://localhost:8098/buckets/s23904/keys
+
+//9
+curl -i -XGET  http://localhost:8098/buckets/s23904/keys/DmRXbeaFHlMk8pF4HQmSdXsIpe1
+
+//10
+curl -i -XDELETE http://localhost:8098/buckets/s23904/keys/DmRXbeaFHlMk8pF4HQmSdXsIpe1

@@ -1,0 +1,16 @@
+object created
+Read object: {
+  "firstName" : "Bartłomiej",
+  "lastName" : "Leoniak",
+  "age" : 23,
+  "gender" : "male"
+}
+object updated
+Im getting older :{
+  "firstName" : "Bartłomiej",
+  "lastName" : "Leoniak",
+  "age" : 24,
+  "gender" : "male"
+}
+Object deleted
+Im deleted
